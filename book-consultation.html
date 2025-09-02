@@ -267,184 +267,32 @@
           id="title-3"
           class="lg:text-4xl text-2xl uppercase font-bold typing-effect"
         >
-          Contact Us
+          Book Consultation
         </h1>
         <p id="desc-3" class="mt-4 capitalize text-sm fade-in">
-        We are available from Monday to Saturday
+          We are available from Monday to Saturday
         </p>
       </div>
     </div>
-   
-    
+
     <!-- contact us -->
-    <div class="py-2 lg:py-20 py-16 bg-yellow-300 ">
-      <h1
-        class="lg:text-3xl text-center text-2xl font-semibold text-green-900 mb-9"
-      >
-        Quick Enquiry
-      </h1>
+    <div class="py-2 py-10 ">
+      <!-- Calendly inline widget begin -->
       <div
-        class="flex lg:px-60 px-4 lg:flex-row flex-col-reverse w-full mb-20 justify-between"
-      >
-        <!-- Contact Details Section -->
-        <div class="lg:w-1/4 px-4 py-8 w-full">
-          <h2 class="mb-4 text-xl font-bold text-gray-900">Hit Us Up</h2>
-          <ol
-            class="relative text-gray-500 border-s border-gray-200 border-gray-700 text-gray-400"
-          >
-            <li class="mb-10 ms-6">
-              <span
-                class="absolute flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full -start-4 ring-2 ring-white ring-gray-900 bg-gradient-to-r from-green-700 to-green-700"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-white"
-                  viewBox="0 0 24 24"
-                >
-                  <g fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path
-                      d="m16.1 13.359l.456-.453c.63-.626 1.611-.755 2.417-.317l1.91 1.039c1.227.667 1.498 2.302.539 3.255l-1.42 1.412c-.362.36-.81.622-1.326.67M4.003 5.745c-.035-.62.255-1.178.689-1.61l1.57-1.56c.874-.87 2.348-.735 3.111.284l1.261 1.684c.617.824.55 1.952-.157 2.654l-.286.286"
-                    />
-                    <path
-                      d="M18.676 18.965c-1.63.152-5.614-.016-9.86-4.238c-4.005-3.982-4.723-7.395-4.813-8.981"
-                      opacity="0.5"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      d="M16.1 13.359s-1.082 1.076-4.037-1.862s-1.872-4.015-1.872-4.015"
-                      opacity="0.5"
-                    />
-                  </g>
-                </svg>
-              </span>
-              <h3 class="font-medium leading-tight">Phone Number</h3>
-              <p class="text-sm">+254722 785 707</p>
-            </li>
-            <li class="mb-10 ms-6">
-              <span
-                class="absolute flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full -start-4 ring-4 ring-white ring-gray-900 bg-gradient-to-r from-green-700 to-green-700"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-white"
-                  viewBox="0 0 48 48"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="4"
-                  >
-                    <path d="M44 24V9H4v30h20m20-5H30m9-5l5 5l-5 5" />
-                    <path d="m4 9l20 15L44 9" />
-                  </g>
-                </svg>
-              </span>
-              <h3 class="font-medium leading-tight">Email</h3>
-              <p class="text-sm">ngukukinyua@gmail.com</p>
-            </li>
-          </ol>
-        </div>
-
-        <!-- Contact Form Section -->
-        <div class="lg:w-3/4 w-full">
-          <div class="white">
-            <div class="contact-page">
-              <section class="">
-                <div class="px-4 mx-auto max-w-2xl">
-                  <h2 class="mb-4 text-xl font-bold text-gray-900">
-                    Get in Touch
-                  </h2>
-                  <p class="text-sm my-3 text-gray-500">
-                    Fill the form below to get in touch today!
-                  </p>
-                  <form action="{% url 'core:landing' %}" method="POST">
-                    <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
-                      <div class="sm:col-span-2">
-                        <label
-                          for="name"
-                          class="block mb-2 text-sm font-medium text-gray-900"
-                          >Name</label
-                        >
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-100 border-gray-600 placeholder-gray-400 focus:ring-primary-500 focus:border-primary-500"
-                          placeholder="Your name"
-                          required="true"
-                        />
-                      </div>
-
-                      <div class="w-full">
-                        <label
-                          for="email"
-                          class="block mb-2 text-sm font-medium text-gray-900"
-                          >Email</label
-                        >
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-100 border-gray-600 placeholder-gray-400 focus:ring-primary-500 focus:border-primary-500"
-                          placeholder="Your email"
-                          required=""
-                        />
-                      </div>
-
-                      <div class="w-full">
-                        <label
-                          for="number"
-                          class="block mb-2 text-sm font-medium text-gray-900"
-                          >Phone Number</label
-                        >
-                        <input
-                          type="text"
-                          name="number"
-                          id="number"
-                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-100 border-gray-600 placeholder-gray-400 focus:ring-primary-500 focus:border-primary-500"
-                          placeholder="+2547 *** ***"
-                          required=""
-                        />
-                      </div>
-
-                      <div class="sm:col-span-2">
-                        <label
-                          for="restaurant"
-                          class="block mb-2 text-sm font-medium text-gray-900"
-                          >Message</label
-                        >
-                        <textarea
-                          name="restaurant"
-                          id="restaurant"
-                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-100 border-gray-600 placeholder-gray-400 focus:ring-primary-500 focus:border-primary-500"
-                          placeholder="Your message"
-                          required="true"
-                        ></textarea>
-                      </div>
-
-                      <button
-                        type="submit"
-                        class="w-full text-center capitalize text-white bg-green-600 items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium rounded-full hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
-                      >
-                        submit
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-      </div>
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/devkaranja01/30min"
+        class=" lg:mx-auto lg:max-w-screen-xl h-screen  "
+        style="height: 800px;"
+      ></div>
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script>
+      <!-- Calendly inline widget end -->
     </div>
 
-    
-
-    <footer
-      class="bg-gradient-to-r from-blue-700 to-blue-900"
-    >
+    <footer class="bg-gradient-to-r from-blue-700 to-blue-900">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-16">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
